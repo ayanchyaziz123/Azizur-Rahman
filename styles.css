@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* For the section with the ID "contact" */
+
+
+/* For centering the header section */
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* For the sections with the ID "education," "courses," etc. */
+
+@media (min-width: 1024px)
+{
+    section {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+
+/* @media (min-width: 768px)
+{
+    section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+} */
+
+/* Add more CSS for other sections */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
